@@ -1,0 +1,9 @@
+# torch cài riêng theo CUDA của máy (xem README)
+numpy
+pyyaml
+tqdm
+matplotlib
+sacrebleu
+sentencepiece
+wandb
+pytest
