@@ -5,9 +5,9 @@ Bài tập lớn môn Học sâu – Đề tài 8.
 ## Thành viên
 | Họ tên | MSSV | Phụ trách |
 |---|---|---|
-| ... | ... | Dữ liệu, tokenizer, đánh giá |
-| ... | ... | Seq2seq LSTM + attention |
-| ... | ... | Transformer |
+| Văn Đức Hiếu | 24022331 | Dữ liệu, tokenizer, đánh giá |
+| Lương Quang Hoàng | 24022337 | Seq2seq LSTM + attention |
+| Ngô Trọng Hiệp | 24022325 | Transformer |
 
 ## Bài toán
 Đầu vào: câu tiếng Anh. Đầu ra: câu dịch tiếng Việt + attention map.
