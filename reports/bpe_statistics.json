@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "algorithm": "subword-nmt BPE",
+  "version": "0.3.8",
+  "requested_merges": 8000,
+  "learned_merges": 8000,
+  "training_splits": [
+    "train.en",
+    "train.vi"
+  ],
+  "data_manifest_sha256": "d85170344cbfe46a4e9f460a799b227665b4a90d21fdb8cb33148754c10eb6cf",
+  "vocab_size": 8360,
+  "special_ids": {
+    "<pad>": 0,
+    "<unk>": 1,
+    "<bos>": 2,
+    "<eos>": 3
+  },
+  "files": {
+    "codes.bpe": "f04c10d97096b5e0d6ca99ec434b14baf3fe5e344084d86061457b423f16b022",
+    "dev.en": "dfdc39c1c3621c49febb26f614211bf4d807217aa93cb3c05e0d5d5c00828f56",
+    "dev.vi": "68001cfce2fe8750e7a7b7b9179a2efb93b5953799e559a3d6d9791bbf06f706",
+    "test.en": "9297c58b5c09a914f48a7f0db242b089785d852abc68ee7cce9a6be6ff30a986",
+    "test.vi": "f082ca4bb2639eb326aa05a081016f1b049d4b7d21cdcd3c7efe5165dea87818",
+    "train.en": "f0c098f41d9e79cb32f460a6be8b0f9a7c3b3a0f602d7dc065a180c91cafdcde",
+    "train.vi": "c56e0e3f6a2f057dd79c06b526aa3bca643fb2d9027da60193cf8e9e04889013",
+    "vocab.json": "c68c523890fbbb28800127eb293e2c5b952cdb8c7ebe4a7b9a419166757be592"
+  },
+  "token_statistics": {
+    "train": {
+      "en": {
+        "tokens": 3201419,
+        "unknown_tokens": 0
+      },
+      "vi": {
+        "tokens": 3476400,
+        "unknown_tokens": 0
+      }
+    },
+    "dev": {
+      "en": {
+        "tokens": 32630,
+        "unknown_tokens": 0
+      },
+      "vi": {
+        "tokens": 35837,
+        "unknown_tokens": 1
+      }
+    },
+    "test": {
+      "en": {
+        "tokens": 31613,
+        "unknown_tokens": 1
+      },
+      "vi": {
+        "tokens": 35458,
+        "unknown_tokens": 2
+      }
+    }
+  }
+}

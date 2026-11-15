@@ -3,7 +3,5 @@ numpy
 pyyaml
 tqdm
 matplotlib
-sacrebleu
-sentencepiece
+-r requirements-data.txt
 wandb
-pytest

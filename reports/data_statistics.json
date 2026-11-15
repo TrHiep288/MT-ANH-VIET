@@ -1,0 +1,130 @@
+{
+  "raw_pairs": {
+    "train": 133317,
+    "dev": 1553,
+    "test": 1268
+  },
+  "clean_pairs": {
+    "train": 132137,
+    "dev": 1553,
+    "test": 1268
+  },
+  "removed_train": {
+    "overlap_with_dev_or_test": 621,
+    "empty": 151,
+    "duplicate_train_pair": 406,
+    "manually_verified_misalignment": 2
+  },
+  "manual_exclusions": {
+    "133316": "Mismatched TED titles: English Didier Sornette / financial crises; Vietnamese Paul Pholeros / housing and poverty.",
+    "133317": "Mismatched TED descriptions: English financial-crisis prediction; Vietnamese Healthabitat housing and health."
+  },
+  "normalization_changed_pairs": {
+    "train": 4,
+    "dev": 0,
+    "test": 0
+  },
+  "duplicates_before": {
+    "train": 1145,
+    "dev": 2,
+    "test": 7
+  },
+  "overlaps_before": {
+    "train-dev": {
+      "pairs": 12,
+      "en": 14,
+      "vi": 15
+    },
+    "train-test": {
+      "pairs": 12,
+      "en": 13,
+      "vi": 11
+    },
+    "dev-test": {
+      "pairs": 3,
+      "en": 3,
+      "vi": 3
+    }
+  },
+  "overlaps_after": {
+    "train-dev": {
+      "pairs": 0,
+      "en": 13,
+      "vi": 13
+    },
+    "train-test": {
+      "pairs": 0,
+      "en": 13,
+      "vi": 7
+    },
+    "dev-test": {
+      "pairs": 3,
+      "en": 3,
+      "vi": 3
+    }
+  },
+  "lengths_whitespace_tokens": {
+    "train": {
+      "en": {
+        "sentences": 132137,
+        "tokens": 2702351,
+        "mean": 20.451,
+        "min": 1,
+        "max": 628,
+        "p50": 17,
+        "p95": 48
+      },
+      "vi": {
+        "sentences": 132137,
+        "tokens": 3306687,
+        "mean": 25.025,
+        "min": 1,
+        "max": 850,
+        "p50": 20,
+        "p95": 59
+      }
+    },
+    "dev": {
+      "en": {
+        "sentences": 1553,
+        "tokens": 27983,
+        "mean": 18.019,
+        "min": 2,
+        "max": 93,
+        "p50": 15,
+        "p95": 39
+      },
+      "vi": {
+        "sentences": 1553,
+        "tokens": 34297,
+        "mean": 22.084,
+        "min": 2,
+        "max": 122,
+        "p50": 19,
+        "p95": 46
+      }
+    },
+    "test": {
+      "en": {
+        "sentences": 1268,
+        "tokens": 26728,
+        "mean": 21.079,
+        "min": 2,
+        "max": 102,
+        "p50": 18,
+        "p95": 48
+      },
+      "vi": {
+        "sentences": 1268,
+        "tokens": 33682,
+        "mean": 26.563,
+        "min": 2,
+        "max": 123,
+        "p50": 22,
+        "p95": 61
+      }
+    }
+  },
+  "manifest_sha256": "d85170344cbfe46a4e9f460a799b227665b4a90d21fdb8cb33148754c10eb6cf",
+  "alignment_scope": "Official file hashes, equal counts, and original row order verified; semantic alignment is not automatically proven."
+}

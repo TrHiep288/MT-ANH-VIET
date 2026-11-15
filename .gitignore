@@ -4,3 +4,7 @@ checkpoints/
 wandb/
 .venv/
 __pycache__/
+.pytest_cache/
+*.pyc
+results/runs/
+results/selections/
